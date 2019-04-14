@@ -1,11 +1,12 @@
 body {
     width: 100vw;
     height: 100vh;
+    
     display: grid;
     place-items: center;
     font-family: 'Open Sans', sans-serif;
-    background: url("https://source.unsplash.com/1600x900/?weather");
-    background-size:     cover;                      /* <------ */
+    background: url("https://source.unsplash.com/1600x900/?weather,sunny, rain, clouds");
+    background-size:     cover;     
     background-repeat:   no-repeat;
     background-position: center center;  
 }
@@ -30,7 +31,6 @@ body {
 
 .content {
   
-    height: 100%;
     display: grid;
     place-items: center;
 
@@ -40,7 +40,6 @@ body {
 .icon {
     display: grid;
     place-items: center;
-
    
 }
 
