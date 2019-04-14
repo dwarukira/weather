@@ -57,8 +57,7 @@ body::after {
   
     display: grid;
     place-items: center;
-    padding-left: 20px;
-
+    padding-left: 30px;
 
 
 }
@@ -66,36 +65,34 @@ body::after {
 .icon {
     display: grid;
     place-items: center;
-    padding-left: 20px;
    
 }
 
 .temp {
     color: #ffffff;
-    font-size:2vw;
+    font-size:3em;
     position: relative;
+    padding: 10px;
 }
 
 .temp::after {
     content: 'c';
-    font-size: 1vw;
+    font-size: 0.5em;
     position: absolute;
     top:0;
-    right: -1vw;
+    right: -1px;
+
 
 }
 
 .timezone {
     color: #ffffff;
-    font-size: 1.5vw;
+    font-size: 1.5em;
+    padding: 10px;
 
 }
 
 .desc {
     color: #ffffff;
-    font-size: 1vw;
-}
-
-#icon {
-    width: 5vw;
+    font-size: 1em;
 }
