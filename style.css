@@ -17,7 +17,11 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -1;   
-    background: url("https://source.unsplash.com/1600x900/?weather,sunny, rain, clouds");
+    background: url("https://source.unsplash.com/1600x900/?weather,sunny, rain, clouds")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-size:     cover;     
     background-repeat:   no-repeat;
     background-position: center center;  
@@ -33,6 +37,7 @@ body::after {
    opacity: 0.9;
    display: grid;
    grid-template-columns: 2fr 0fr 2fr;
+   margin: 30px;
 
 }
 
