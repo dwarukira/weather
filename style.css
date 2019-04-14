@@ -1,0 +1,70 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background: url("https://source.unsplash.com/1600x900/?weather");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.card {
+   height: 200px;
+   width: 500px;
+   background: rgb(135,206,235, 2);
+   display: grid;
+   grid-template-columns: 2fr 0fr 2fr;
+
+}
+
+.divider {
+    height: 100%;
+    width: 2px;
+    background: #008000;
+    display: grid;
+    place-items: center;
+    
+}
+
+.content {
+  
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+
+}
+
+.icon {
+    display: grid;
+    place-items: center;
+
+   
+}
+
+.temp {
+    color: #ffffff;
+    font-size:3em;
+    position: relative;
+}
+
+.temp::after {
+    content: 'c';
+    font-size: 0.5em;
+    position: absolute;
+    top:0;
+    right: -15px;
+
+}
+
+.timezone {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.desc {
+    color: #ffffff;
+    font-size: 1em;
+}
