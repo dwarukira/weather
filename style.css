@@ -26,6 +26,8 @@ body::after {
     background-repeat:   no-repeat;
     background-position: center center;  
     opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
 .card {
@@ -56,6 +58,7 @@ body::after {
     place-items: center;
 
 
+
 }
 
 .icon {
@@ -82,7 +85,7 @@ body::after {
 .timezone {
     color: #ffffff;
     font-size: 1.5em;
-    padding: 20px;
+
 }
 
 .desc {
